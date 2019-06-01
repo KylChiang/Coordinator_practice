@@ -9,6 +9,7 @@
 import UIKit
 
 // https://www.hackingwithswift.com/articles/71/how-to-use-the-coordinator-pattern-in-ios-apps
+//  https://www.hackingwithswift.com/articles/175/advanced-coordinator-pattern-tutorial-ios
 class MainCoordinator: NSObject, Coordinator, UINavigationControllerDelegate {    // It’s a class rather than a struct because this coordinator will be shared across many view controllers.
     var childCoordinators: [Coordinator] = [Coordinator] ()
 
@@ -33,8 +34,9 @@ class MainCoordinator: NSObject, Coordinator, UINavigationControllerDelegate {  
         child.start()
     }
     
-    func createAccount() {
+    func createAccount(to productType: Int) {
         let vc = CreateAccountViewController.instantiate()
+        vc.selectProduct = productType
         vc.coordinator = self
         navigationController.pushViewController(vc, animated: true)
     }
