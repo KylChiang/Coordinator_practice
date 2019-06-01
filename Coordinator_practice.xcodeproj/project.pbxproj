@@ -12,6 +12,7 @@
 		2597B45F228D7C5800C22658 /* MainCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2597B45E228D7C5800C22658 /* MainCoordinator.swift */; };
 		2597B461228DABE500C22658 /* BuyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2597B460228DABE500C22658 /* BuyViewController.swift */; };
 		2597B463228DAC2900C22658 /* CreateAccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2597B462228DAC2900C22658 /* CreateAccountViewController.swift */; };
+		259F941622A25CF6004CC6FC /* BuyCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 259F941522A25CF6004CC6FC /* BuyCoordinator.swift */; };
 		25AAA444228D165200E7C61E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25AAA443228D165200E7C61E /* AppDelegate.swift */; };
 		25AAA446228D165200E7C61E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25AAA445228D165200E7C61E /* ViewController.swift */; };
 		25AAA449228D165200E7C61E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 25AAA447228D165200E7C61E /* Main.storyboard */; };
@@ -44,6 +45,7 @@
 		2597B45E228D7C5800C22658 /* MainCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainCoordinator.swift; sourceTree = "<group>"; };
 		2597B460228DABE500C22658 /* BuyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuyViewController.swift; sourceTree = "<group>"; };
 		2597B462228DAC2900C22658 /* CreateAccountViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateAccountViewController.swift; sourceTree = "<group>"; };
+		259F941522A25CF6004CC6FC /* BuyCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuyCoordinator.swift; sourceTree = "<group>"; };
 		25AAA440228D165200E7C61E /* Coordinator_practice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Coordinator_practice.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		25AAA443228D165200E7C61E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		25AAA445228D165200E7C61E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -116,6 +118,7 @@
 				2597B45A228D64CA00C22658 /* Coordinator.swift */,
 				2597B45C228D685200C22658 /* Storyboarded.swift */,
 				2597B45E228D7C5800C22658 /* MainCoordinator.swift */,
+				259F941522A25CF6004CC6FC /* BuyCoordinator.swift */,
 				2597B460228DABE500C22658 /* BuyViewController.swift */,
 				2597B462228DAC2900C22658 /* CreateAccountViewController.swift */,
 			);
@@ -274,6 +277,7 @@
 				2597B463228DAC2900C22658 /* CreateAccountViewController.swift in Sources */,
 				25AAA446228D165200E7C61E /* ViewController.swift in Sources */,
 				25AAA444228D165200E7C61E /* AppDelegate.swift in Sources */,
+				259F941622A25CF6004CC6FC /* BuyCoordinator.swift in Sources */,
 				2597B45B228D64CA00C22658 /* Coordinator.swift in Sources */,
 				2597B45F228D7C5800C22658 /* MainCoordinator.swift in Sources */,
 				2597B45D228D685200C22658 /* Storyboarded.swift in Sources */,
