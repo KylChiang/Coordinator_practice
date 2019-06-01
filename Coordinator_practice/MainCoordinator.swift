@@ -10,7 +10,9 @@ import UIKit
 
 // https://www.hackingwithswift.com/articles/71/how-to-use-the-coordinator-pattern-in-ios-apps
 //  https://www.hackingwithswift.com/articles/175/advanced-coordinator-pattern-tutorial-ios
-class MainCoordinator: NSObject, Coordinator, UINavigationControllerDelegate {    // It’s a class rather than a struct because this coordinator will be shared across many view controllers.
+class MainCoordinator: NSObject, Coordinator, UINavigationControllerDelegate, AccountCreating, Buying {
+
+    // It’s a class rather than a struct because this coordinator will be shared across many view controllers.
     var childCoordinators: [Coordinator] = [Coordinator] ()
 
     var navigationController: UINavigationController
@@ -24,7 +26,15 @@ class MainCoordinator: NSObject, Coordinator, UINavigationControllerDelegate {  
         
         let vc = ViewController.instantiate()
         vc.tabBarItem = UITabBarItem(tabBarSystemItem: .favorites, tag: 0)
-        vc.coordinator = self  // set the coordinator property of our iniital view controller, so it's able to send messages when its buttons are tapped.
+        
+        vc.buyAction = { [weak self] in
+            self?.buySubscription()
+        }
+        
+        vc.createAcountAction = { [weak self] in
+            self?.createAccount(to: 3)
+        }
+        
         navigationController.pushViewController(vc, animated: true)
     }
     
