@@ -13,6 +13,6 @@ class BuyViewController: UIViewController, Storyboarded {
     
     override func viewDidDisappear(_ animated: Bool) {
         super.viewDidDisappear(animated)
-        coordinator.didFinishBuying()
+        coordinator?.didFinishBuying()
     }
 }
