@@ -23,6 +23,7 @@ class MainCoordinator: NSObject, Coordinator, UINavigationControllerDelegate {  
         navigationController.delegate = self
         
         let vc = ViewController.instantiate()
+        vc.tabBarItem = UITabBarItem(tabBarSystemItem: .favorites, tag: 0)
         vc.coordinator = self  // set the coordinator property of our iniital view controller, so it's able to send messages when its buttons are tapped.
         navigationController.pushViewController(vc, animated: true)
     }
