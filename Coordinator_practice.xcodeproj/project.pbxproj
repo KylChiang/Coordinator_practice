@@ -16,6 +16,10 @@
 		259F941822A268AB004CC6FC /* MainTabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 259F941722A268AB004CC6FC /* MainTabViewController.swift */; };
 		259F941A22A26BC9004CC6FC /* Buying.swift in Sources */ = {isa = PBXBuildFile; fileRef = 259F941922A26BC9004CC6FC /* Buying.swift */; };
 		259F941C22A26EB4004CC6FC /* AccountCreating.swift in Sources */ = {isa = PBXBuildFile; fileRef = 259F941B22A26EB4004CC6FC /* AccountCreating.swift */; };
+		259F949C22A3E893004CC6FC /* BuyViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 259F949B22A3E893004CC6FC /* BuyViewController2.swift */; };
+		259F949E22A3E8AB004CC6FC /* BuyViewController3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 259F949D22A3E8AB004CC6FC /* BuyViewController3.swift */; };
+		259F94A022A3EBB8004CC6FC /* BuyCoordinator2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 259F949F22A3EBB8004CC6FC /* BuyCoordinator2.swift */; };
+		259F94A222A3EFFB004CC6FC /* BuyCoordinator3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 259F94A122A3EFFB004CC6FC /* BuyCoordinator3.swift */; };
 		25AAA444228D165200E7C61E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25AAA443228D165200E7C61E /* AppDelegate.swift */; };
 		25AAA446228D165200E7C61E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25AAA445228D165200E7C61E /* ViewController.swift */; };
 		25AAA449228D165200E7C61E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 25AAA447228D165200E7C61E /* Main.storyboard */; };
@@ -52,6 +56,10 @@
 		259F941722A268AB004CC6FC /* MainTabViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabViewController.swift; sourceTree = "<group>"; };
 		259F941922A26BC9004CC6FC /* Buying.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Buying.swift; sourceTree = "<group>"; };
 		259F941B22A26EB4004CC6FC /* AccountCreating.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountCreating.swift; sourceTree = "<group>"; };
+		259F949B22A3E893004CC6FC /* BuyViewController2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuyViewController2.swift; sourceTree = "<group>"; };
+		259F949D22A3E8AB004CC6FC /* BuyViewController3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuyViewController3.swift; sourceTree = "<group>"; };
+		259F949F22A3EBB8004CC6FC /* BuyCoordinator2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuyCoordinator2.swift; sourceTree = "<group>"; };
+		259F94A122A3EFFB004CC6FC /* BuyCoordinator3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuyCoordinator3.swift; sourceTree = "<group>"; };
 		25AAA440228D165200E7C61E /* Coordinator_practice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Coordinator_practice.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		25AAA443228D165200E7C61E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		25AAA445228D165200E7C61E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -126,8 +134,12 @@
 				2597B45C228D685200C22658 /* Storyboarded.swift */,
 				2597B45E228D7C5800C22658 /* MainCoordinator.swift */,
 				259F941522A25CF6004CC6FC /* BuyCoordinator.swift */,
+				259F949F22A3EBB8004CC6FC /* BuyCoordinator2.swift */,
+				259F94A122A3EFFB004CC6FC /* BuyCoordinator3.swift */,
 				259F941922A26BC9004CC6FC /* Buying.swift */,
 				2597B460228DABE500C22658 /* BuyViewController.swift */,
+				259F949B22A3E893004CC6FC /* BuyViewController2.swift */,
+				259F949D22A3E8AB004CC6FC /* BuyViewController3.swift */,
 				259F941B22A26EB4004CC6FC /* AccountCreating.swift */,
 				2597B462228DAC2900C22658 /* CreateAccountViewController.swift */,
 			);
@@ -283,6 +295,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				259F94A022A3EBB8004CC6FC /* BuyCoordinator2.swift in Sources */,
+				259F949C22A3E893004CC6FC /* BuyViewController2.swift in Sources */,
 				259F941C22A26EB4004CC6FC /* AccountCreating.swift in Sources */,
 				2597B463228DAC2900C22658 /* CreateAccountViewController.swift in Sources */,
 				259F941A22A26BC9004CC6FC /* Buying.swift in Sources */,
@@ -293,7 +307,9 @@
 				2597B45F228D7C5800C22658 /* MainCoordinator.swift in Sources */,
 				2597B45D228D685200C22658 /* Storyboarded.swift in Sources */,
 				2597B461228DABE500C22658 /* BuyViewController.swift in Sources */,
+				259F949E22A3E8AB004CC6FC /* BuyViewController3.swift in Sources */,
 				259F941822A268AB004CC6FC /* MainTabViewController.swift in Sources */,
+				259F94A222A3EFFB004CC6FC /* BuyCoordinator3.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

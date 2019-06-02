@@ -42,6 +42,7 @@ class MainCoordinator: NSObject, Coordinator, UINavigationControllerDelegate, Ac
         let child = BuyCoordinator(navigationController: navigationController)
         child.parentCoordinator = self
         childCoordinators.append(child)
+        
         child.start()
     }
     

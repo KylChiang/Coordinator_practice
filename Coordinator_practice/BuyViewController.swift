@@ -11,8 +11,15 @@ import UIKit
 class BuyViewController: UIViewController, Storyboarded {
     weak var coordinator: BuyCoordinator?
     
-//    override func viewDidDisappear(_ animated: Bool) {
-//        super.viewDidDisappear(animated)
+    
+    override func viewDidDisappear(_ animated: Bool) {
+        super.viewDidDisappear(animated)
 //        coordinator?.didFinishBuying()
-//    }
+    }
+    
+    @IBAction func tapeedNextButton(_ sender: Any) {
+//        navigationController?.popViewController(animated: true)
+        coordinator?.goNext()
+    }
+    
 }

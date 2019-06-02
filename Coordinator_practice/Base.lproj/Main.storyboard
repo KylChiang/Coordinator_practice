@@ -71,10 +71,21 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yW1-eP-cI7">
+                                <rect key="frame" x="191" y="600" width="32" height="30"/>
+                                <state key="normal" title="Next"/>
+                                <connections>
+                                    <action selector="tapeedNextButton:" destination="5Wq-q6-ej6" eventType="touchUpInside" id="u6B-Au-DjO"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
                             <constraint firstItem="zNR-u6-OOy" firstAttribute="centerX" secondItem="d6y-b2-mxY" secondAttribute="centerX" id="Et3-3p-o9T"/>
+                            <constraint firstItem="yW1-eP-cI7" firstAttribute="centerY" secondItem="d6y-b2-mxY" secondAttribute="centerY" constant="167" id="Oik-6V-K0k"/>
+                            <constraint firstItem="yW1-eP-cI7" firstAttribute="centerY" secondItem="d6y-b2-mxY" secondAttribute="centerY" constant="167" id="SWe-si-Fs8"/>
+                            <constraint firstItem="yW1-eP-cI7" firstAttribute="centerX" secondItem="d6y-b2-mxY" secondAttribute="centerX" id="bA2-eX-M1K"/>
+                            <constraint firstItem="yW1-eP-cI7" firstAttribute="centerX" secondItem="d6y-b2-mxY" secondAttribute="centerX" id="bl1-au-0yW"/>
                             <constraint firstItem="zNR-u6-OOy" firstAttribute="centerY" secondItem="d6y-b2-mxY" secondAttribute="centerY" id="xag-9V-WZE"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="njY-CK-rCX"/>
@@ -83,6 +94,34 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="lUC-8e-LSh" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="896" y="104"/>
+        </scene>
+        <!--Buy View Controller2-->
+        <scene sceneID="2QW-Jm-fso">
+            <objects>
+                <viewController storyboardIdentifier="BuyViewController2" id="v1D-wP-KJ9" customClass="BuyViewController2" customModule="Coordinator_practice" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="AKF-UH-5Px">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Slr-mL-hgq">
+                                <rect key="frame" x="191" y="433" width="32" height="30"/>
+                                <state key="normal" title="Next"/>
+                                <connections>
+                                    <action selector="tappedNextButton:" destination="v1D-wP-KJ9" eventType="touchUpInside" id="i2K-Su-vgu"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.28235294119999998" green="0.58431372550000005" blue="0.46666666670000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="Slr-mL-hgq" firstAttribute="centerX" secondItem="AKF-UH-5Px" secondAttribute="centerX" id="aC6-Eo-kJQ"/>
+                            <constraint firstItem="Slr-mL-hgq" firstAttribute="centerY" secondItem="AKF-UH-5Px" secondAttribute="centerY" id="lmU-Rh-maN"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="ura-zF-pxf"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="qE9-7W-nh7" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="895.6521739130435" y="775.44642857142856"/>
         </scene>
         <!--Create Account View Controller-->
         <scene sceneID="Zd6-dT-n4H">
@@ -110,6 +149,34 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="JkG-Th-QUG" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1724.6376811594205" y="93.75"/>
+        </scene>
+        <!--Buy View Controller3-->
+        <scene sceneID="1U0-dT-T5f">
+            <objects>
+                <viewController storyboardIdentifier="BuyViewController3" id="o5B-zw-WKC" customClass="BuyViewController3" customModule="Coordinator_practice" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="boF-Uw-xUD">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HE2-Yb-wws">
+                                <rect key="frame" x="191" y="433" width="32" height="30"/>
+                                <state key="normal" title="Next"/>
+                                <connections>
+                                    <action selector="tappedNextButton:" destination="o5B-zw-WKC" eventType="touchUpInside" id="9nY-OY-RiV"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="0.49327188729999999" blue="0.47399842739999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="HE2-Yb-wws" firstAttribute="centerY" secondItem="boF-Uw-xUD" secondAttribute="centerY" id="Fbp-Hp-ICa"/>
+                            <constraint firstItem="HE2-Yb-wws" firstAttribute="centerX" secondItem="boF-Uw-xUD" secondAttribute="centerX" id="slm-Xd-Ivm"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="X0j-nK-xKk"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="VT1-OY-ehi" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="896" y="1444"/>
         </scene>
     </scenes>
 </document>

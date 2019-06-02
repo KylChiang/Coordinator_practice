@@ -1,14 +1,14 @@
 //
-//  BuyCoordinator.swift
+//  BuyCoordinator3.swift
 //  Coordinator_practice
 //
-//  Created by Kyl Chiang on 2019/6/1.
+//  Created by Kyl Chiang on 2019/6/2.
 //  Copyright © 2019 Play4Act Studio. All rights reserved.
 //
 
 import UIKit
 
-class BuyCoordinator: Coordinator {
+class BuyCoordinator3: Coordinator {
     weak var parentCoordinator: MainCoordinator?
     
     var childCoordinators: [Coordinator] = []
@@ -20,20 +20,13 @@ class BuyCoordinator: Coordinator {
     }
     
     func start() {
-        let vc = BuyViewController.instantiate()
+        let vc = BuyViewController3.instantiate()
         vc.coordinator = self
         navigationController.pushViewController(vc, animated: true)
     }
     
     func didFinishBuying() {
         parentCoordinator?.childDidFinish(self)
-    }
-    
-    func goNext() {
-        let child = BuyCoordinator2(navigationController: navigationController)
-        child.parentCoordinator = parentCoordinator
-        childCoordinators.append(child)
-        child.start()
     }
     
 }
